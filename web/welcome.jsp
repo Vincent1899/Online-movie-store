@@ -1,6 +1,6 @@
 <%-- 
-    Document   : newjspDemo
-    Created on : Apr 1, 2019, 5:27:16 PM
+    Document   : welcome
+    Created on : Apr 15, 2019, 4:05:49 AM
     Author     : hoang
 --%>
 
@@ -11,7 +11,13 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
     </head>
+    <pre>
+            <%
+                String name = request.getParameter("fullname");
+            %>
+    </pre>
     <body>
-        <h1>Hello World!</h1>
+        <%= "Welcome " + name                
+        %>        
     </body>
 </html>
