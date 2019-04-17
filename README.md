@@ -1,2 +1,2 @@
 # Online-movie-store
-Right click index.jsp> Run file 
+Right click index.jsp>Run file 
